@@ -1,0 +1,214 @@
+[dir='rtl']{
+    .fa-arrow-right, .fa-arrow-left, 
+    .fa-chevrons-right, .fa-long-arrow-right, 
+    .fa-angle-right, .fa-solid, .fa-regular{
+        transform: rotate(180deg);
+    }
+    .rts-hosting-type__section .rts-slider__btn.hosting-slider{
+        left: 0 !important;
+        right: auto;
+    }
+    .rts-faq__first--shape .shape-two{
+        right: 50%;
+    }
+    .rts-domain-finder__content form.domain-checker button[type=submit]{
+        left: 7px;
+        right: unset
+    }
+    .rts-domain-finder__content form.domain-checker input{
+        padding: 25px 25px 30px 200px;
+    }
+    .rts-footer__widget form.newsletter button {
+        left: 5px;
+        right: unset;
+    }
+    .rts-footer__widget form.newsletter span{
+        right: 25px;
+        left: unset;
+        top: 25%;
+        transform: rotate(180deg);
+    }
+    .rts-service-two .service-two__image{
+        left: 40px;
+        right: unset;
+    }
+    .rts-pricing-plan__tab .discount span.line{
+        left: 25%;
+        right: unset;
+    }
+    .rts-pricing-plan .single-plan__content .plan-feature__list li span {
+        margin-left: 10px;
+    }
+    .rts-hosting-feature-two__content .rts-section__two .title, 
+    .rts-pricing-five .rts-domain-checker-two .rts-hero__content{
+        text-align: right;
+    }
+    .rts-hosting-feature-two__content .feature__list .feature__item{
+        margin-right: 30px;
+        &::before{
+            right: -30px;
+            left: unset;
+        }
+    }
+    .rts-footer__widget .contact-method a span{
+        margin-left: 15px;
+    }
+    .progress-wrap{
+        left: 30px;
+        right: unset;
+    }
+    .rts-pricing-plan .single-plan__content .buy__plan.btn__two{
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .rts-hosting-feature-area .section-inner .right-side-content .feature-list li{
+        padding: 12px 15px 11px 30px;
+    }
+    .rts-hero-three .rts-hero__content form .select-button-area, 
+    .rts-domain-checker-two .rts-hero__content form .select-button-area{
+        left: 0;
+        right: unset;
+    }
+    .rts-hero-three .rts-hero__content form .select-button-area button,
+    .rts-domain-checker-two .rts-hero__content form .select-button-area button{
+        border-radius: 6px;
+    }
+    .rts-hero-three .rts-hero__content form input,
+    .rts-domain-checker-two .rts-hero__content form input{
+        padding-right: 30px;
+    }
+    .rts-pricing-plan .card-plan__cartbtn a{
+        right: 50%;
+        transform: translate(50%);
+    }
+     .feature__list .feature__item::before{
+        right: -25px;
+        left: unset;
+    }
+    .feature__list .feature__item{
+        margin-right: 25px;
+    }
+    .rts-hosting-feature-four .feature__single{
+        padding: 35px 35px 35px 25px;
+    }
+    .rts-pricing-five .rts-domain-checker-two .rts-hero__content form{
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .rts-hosting-flash-sale .section-inner .shape-discount-area.two{
+        left: 5%;
+        right: unset;
+    }
+    .rts-hosting-flash-sale .section-inner .shape-discount-area{
+        left: 30%;
+        right: unset;
+    }
+    .rts-faq__accordion .accordion .accordion-item .accordion-header .accordion-button{
+        text-align: right;
+    }
+    .rts-faq__accordion .accordion .accordion-item .accordion-header .accordion-button::after{
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .rts-contact-form .contact-form__content .contact__shape{
+        left: 5%;
+        right: unset;
+    }
+    .rts-feature-six .plan__btn a i, .rts-footer__widget form.newsletter button i,
+    .rts-hosting-feature-four.feature-five .feature-btn-area .plan__btn i{
+        transform: rotate(180deg);
+    }
+    .rts-contact-form .form__content .nice-select.input-form{
+        text-align: right !important;
+        &::after{
+            right: unset;
+            left: 12px;
+        }
+    }
+    .rts-header__wrapper .rts-header__right .button-area .login__btn i{
+        margin-left: 5px;
+        transform: rotate(0);
+    }
+    .feature__list .feature__item{
+        margin-left: 0;
+    }
+    .dedicated-feature-area .dedicated-feature-image .feature-text .seo{
+        right: -18%;
+        left: unset;
+    }
+    .dedicated-feature-area .dedicated-feature-image .feature-text .performance{
+        left: unset;
+        right: -10%;
+    }
+    .dedicated-feature-area .dedicated-feature-image .featured-item{
+        left: -10%;
+        right: unset;
+    }
+    .rts-affiliate .become__affiliate__content::before{
+        right: 8%;
+        left: unset;
+    }
+    .rts-single-widget.search-widget form button{
+        left: 20px;
+        right: unset;
+        i{
+            transform: rotate(0);
+        }
+    }
+    .blog-details__article-meta a span, 
+    .blog-details__article-meta span, 
+    .rts-blog-list .single-post__meta .author__date__cat,
+    .rts-single-widget.recentpost-widget .recent-posts .meta .published,
+    .knowledge__content .single-content p.icon-text span{
+        i{
+            margin-left: 10px;
+        } 
+    } 
+    .rts-pricing-plan .card-plan__feature--list-item .text i, 
+    .transfer-domain .table__content tr td.protection .fa-check, 
+    .rts-pricing-plan .single-plan__content .plan-feature__list li span i,
+    .pricing-comparison table.table.table-bottom tbody tr td span i{
+        transform: rotate(0);
+    }
+    .rts-about-reseller .hosting-about-image-bg::after{
+        right: 30%;
+        left: unset;
+    }
+    .rts-blog__single--meta .cat__date .date{
+        margin-right: 20px;
+        &::after{
+            right: -15px;
+        }
+    }
+    .rts-hero-two__content .title .stroke__line {
+        position: absolute;
+        bottom: 20%;
+        right: auto;
+    }
+    .hostie-menu .hostie-desktop-menu .hostie-submenu .nav-item a.nav-link::after{
+        right: 20px;
+    }
+    // menu
+    .mega-menu-item li{
+        a img{
+            margin-left: 16px;
+            margin-right: unset;
+        }
+        .info{
+            text-align: right;
+        }
+    }
+    .rts-pricing-five .rts-domain-checker-two .rts-hero__content .banner-content-tag{
+        justify-content: flex-start;
+    }
+    .hostie-menu .hostie-desktop-menu .hostie-has-dropdown .hostie-dropdown-main-element::before{
+        left: -20px;
+        right: unset;
+    }
+    .rts-about__content {
+        margin-right: 50px;
+    }
+    .rts-plan__table table td.package__item i{
+        transform: rotate(0deg);
+    }  
+}
