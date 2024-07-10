@@ -24,6 +24,114 @@
     <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style">
     <!-- Custom css -->
     <link rel="stylesheet preload" href="assets/css/style.css" as="style">
+
+    <style>
+        
+h4.section-heading {
+    background-color: rgba(235, 102, 43, .1);
+    margin: auto;
+    width: fit-content;
+    padding: 13px;
+    border-radius: 50px;
+    color: #457bff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.content svg {
+    margin: 25px 0px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+.content h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: rgba(69,123,255,.1);
+    color: #457bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0px auto;
+    transition: .2s;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color:#457bff ;
+    color: white;
+}
+
+.btn svg {
+    margin: 0 5px;
+    width: 25px;
+}
+
+.btn svg path {
+    fill: #457bff;
+}
+
+.btn:hover svg path {
+    fill: white;
+}
+
+.grid-item .content path {
+    color: #457bff;
+}
+
+.grid-item-feature {
+    background-color: #457bff;
+    color: white;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.grid-item-feature .btn {
+    background-color: white;
+    color: #457bff;
+}
+
+.grid-item-feature .btn:hover {
+    background-color: white;
+    color: #457bff;
+}
+
+.grid-item-feature .btn:hover svg path {
+    fill: #457bff;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+    </style>
+    
 </head>
 
 <body>
